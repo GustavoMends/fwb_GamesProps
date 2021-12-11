@@ -48,6 +48,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 import com.android.internal.util.custom.PixelPropsUtils;
+import com.android.internal.util.custom.GamesProps;
 
 /** @hide */
 public final class Zygote {
@@ -799,6 +800,9 @@ public final class Zygote {
 
         // Set pixel props
         PixelPropsUtils.setProps(args.mPackageName);
+        
+        // Set games props
+        GamesProps.setProps(args.mPackageName);
     }
 
     private static final String USAP_ERROR_PREFIX = "Invalid command to USAP: ";
