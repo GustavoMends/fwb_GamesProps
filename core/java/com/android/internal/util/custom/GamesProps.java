@@ -34,16 +34,27 @@ public class GamesProps {
 
     private static final String[] packagesToChangeROG1 = {
             "com.dts.freefireth",
-            "com.dts.freefiremax"
+            "com.dts.freefiremax",
+            "com.madfingergames.legends"
     };
 
     private static final String[] packagesToChangeXP5 = {
-            "com.activision.callofduty.shooter"
+            "com.activision.callofduty.shooter",
+            "com.tencent.tmgp.kr.codm",
+            "com.garena.game.codm",
+            "com.vng.codmvn"
     };
 
     private static final String[] packagesToChangeOP8P = {
             "com.tencent.ig",
+            "com.pubg.imobile",
+            "com.pubg.krmobile",
+            "com.vng.pubgmobile",
+            "com.rekoo.pubgm",
+            "com.tencent.tmgp.pubgmhd",
             "com.riotgames.league.wildrift",
+            "com.riotgames.league.wildrifttw",
+            "com.riotgames.league.wildriftvn",
             "com.netease.lztgglobal",
             "com.epicgames.fortnite",
             "com.epicgames.portal"
